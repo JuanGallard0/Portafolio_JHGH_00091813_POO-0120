@@ -30,9 +30,9 @@ public class Libro {
     @Override
     public String toString() {
         return "Libro{" +
-                "ISBN='" + ISBN + '\'' +
-                ", nombre='" + nombre + '\'' +
-                ", paginas=" + paginas +
-                '}';
+                ISBN + ": " +
+                nombre + '(' +
+                paginas +
+                ")}";
     }
 }

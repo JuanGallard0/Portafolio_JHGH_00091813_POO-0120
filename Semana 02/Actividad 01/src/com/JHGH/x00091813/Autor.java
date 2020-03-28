@@ -35,9 +35,9 @@ public class Autor {
     @Override
     public String toString() {
         return "Autor{" +
-                "nombre='" + nombre + '\'' +
-                ", email='" + email + '\'' +
-                ", genero=" + genero +
+                nombre + "(" +
+                genero + "): " +
+                email +
                 '}';
     }
 }
