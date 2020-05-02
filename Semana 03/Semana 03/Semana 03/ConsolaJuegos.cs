@@ -7,44 +7,10 @@ namespace Semana_03
     {
         public static void comprarJuego()
         {
-            string numero = null;
-            bool loop = true;
-            while (loop)
-            {
-                try
-                {
-                    loop = false;
-                    Console.Write("Numero de tarjeta: ");
-                    numero = Console.ReadLine();
-                    if (String.IsNullOrEmpty(numero))
-                        throw new ArgumentNullException();
-                }
-                catch (ArgumentNullException e)
-                {
-                    Console.WriteLine(e);
-                    loop = true;
-                }
-            }
+            string numero = EmptyStringCheck("Numero de tarjeta: ");
             if (Banco.realizarCompras(numero))
             {
-                string juego = null;
-                loop = true;
-                while (loop)
-                {
-                    try
-                    {
-                        loop = false;
-                        Console.Write("Nombre del juego: ");
-                        juego = Console.ReadLine();
-                        if (String.IsNullOrEmpty(juego))
-                            throw new ArgumentNullException();
-                    }
-                    catch (ArgumentNullException e)
-                    {
-                        Console.WriteLine(e);
-                        loop = true;
-                    }
-                }
+                string juego = EmptyStringCheck("Nombre del juego: ");
                 GestorArchivos.Anexar("Juegos.txt", juego);
                 Console.WriteLine("Juego comprado exitosamente!");
             }
@@ -52,16 +18,25 @@ namespace Semana_03
 
         public static void jugar()
         {
-            string juego = null;
+            string juego = EmptyStringCheck("Nombre del juego: ");
+            if (GestorArchivos.Buscar("Juegos.txt", juego))
+                Console.WriteLine("Listo para jugar!");
+            else
+                Console.WriteLine("Primero debe comprar el juego :(");
+        }
+
+        public static string EmptyStringCheck(string desc)
+        {
+            string str = null;
             bool loop = true;
             while (loop)
             {
                 try
                 {
                     loop = false;
-                    Console.Write("Nombre del juego: ");
-                    juego = Console.ReadLine();
-                    if (String.IsNullOrEmpty(juego))
+                    Console.Write(desc);
+                    str = Console.ReadLine();
+                    if (String.IsNullOrEmpty(str))
                         throw new ArgumentNullException();
                 }
                 catch (ArgumentNullException e)
@@ -70,10 +45,7 @@ namespace Semana_03
                     loop = true;
                 }
             }
-            if (GestorArchivos.Buscar("Juegos.txt", juego))
-                Console.WriteLine("Listo para jugar!");
-            else
-                Console.WriteLine("Primero debe comprar el juego :(");
+            return str;
         }
     }
 }
