@@ -1,0 +1,44 @@
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\Pre_segundo_parcial.exe.config
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\Pre_segundo_parcial.exe
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\Pre_segundo_parcial.pdb
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\Npgsql.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\System.Buffers.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\System.Memory.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\System.Text.Json.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\System.ValueTuple.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\Npgsql.pdb
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\Npgsql.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\System.Buffers.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\System.Memory.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\System.Text.Json.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\System.ValueTuple.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\obj\Debug\Pre segundo parcial.csprojAssemblyReference.cache
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\obj\Debug\Pre_segundo_parcial.exe.config
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\obj\Debug\Pre_segundo_parcial.Properties.Resources.resources
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\obj\Debug\Pre segundo parcial.csproj.GenerateResource.cache
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\obj\Debug\Pre segundo parcial.csproj.CoreCompileInputs.cache
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\obj\Debug\Pre segundo parcial.csproj.CopyComplete
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\obj\Debug\Pre_segundo_parcial.exe
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\obj\Debug\Pre_segundo_parcial.pdb
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\obj\Debug\Pre_segundo_parcial.Vista.frmInicioSesion.resources
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\obj\Debug\Pre_segundo_parcial.Vista.frmCambiarContra.resources
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\LiveCharts.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\LiveCharts.pdb
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\LiveCharts.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\juanhumberto\Documents\UCA 2020\POO\Portafolio_JHGH_00091813_POO-0120\Pre segundo parcial\Pre segundo parcial\obj\Debug\Pre_segundo_parcial.Vista.frmPrincipal.resources

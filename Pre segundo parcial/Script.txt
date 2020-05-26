@@ -1,0 +1,73 @@
+--Usuario insertado para facilitar el uso de la base de datos: 
+--usuario: Administrador		contraseña: '0000'
+
+CREATE DATABASE "PreParcial2"
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'English_United States.1252'
+    LC_CTYPE = 'English_United States.1252'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
+
+
+CREATE TABLE public.usuario
+(
+    usuario character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    contrasena character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    admin boolean NOT NULL,
+    nombre character varying(50) COLLATE pg_catalog."default",
+    apellido character varying(50) COLLATE pg_catalog."default",
+    calle character varying(50) COLLATE pg_catalog."default",
+    ciudad character varying(50) COLLATE pg_catalog."default",
+    cp character varying(10) COLLATE pg_catalog."default",
+    telefono character varying(15) COLLATE pg_catalog."default",
+    CONSTRAINT usuario_pkey PRIMARY KEY (usuario)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.usuario
+    OWNER to postgres;
+
+
+CREATE TABLE public.inventario
+(
+    nombre character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    descripcion character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    precio integer NOT NULL,
+    stock integer NOT NULL,
+    CONSTRAINT inventario_pkey PRIMARY KEY (nombre)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.inventario
+    OWNER to postgres;
+
+CREATE TABLE public.pedido
+(
+    pedido_id integer NOT NULL DEFAULT nextval('pedido_pedido_id_seq'::regclass),
+    fecha_envio date NOT NULL,
+    usuario character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    cantidad integer NOT NULL,
+    nombre character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT pedido_pkey PRIMARY KEY (pedido_id),
+    CONSTRAINT fk_nombre FOREIGN KEY (nombre)
+        REFERENCES public.inventario (nombre) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+    CONSTRAINT fk_usuario FOREIGN KEY (usuario)
+        REFERENCES public.usuario (usuario) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.pedido
+    OWNER to postgres;
+
+
+INSERT INTO usuario (usuario, contrasena, admin)
+VALUES ('Administrador', '4a7d1ed414474e4033ac29ccb8653d9b', true);
