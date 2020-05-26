@@ -32,7 +32,6 @@ namespace Pre_segundo_parcial.Vista
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.lblBienvenida = new System.Windows.Forms.Label();
             this.tabContenedor = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -98,6 +97,7 @@ namespace Pre_segundo_parcial.Vista
             this.btnAgregarPedido = new System.Windows.Forms.Button();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
+            this.lblBienvenida = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.tabContenedor.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -137,17 +137,6 @@ namespace Pre_segundo_parcial.Vista
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 94.49902F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(761, 528);
             this.tableLayoutPanel1.TabIndex = 0;
-            // 
-            // lblBienvenida
-            // 
-            this.lblBienvenida.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblBienvenida.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.lblBienvenida.Location = new System.Drawing.Point(383, 4);
-            this.lblBienvenida.Name = "lblBienvenida";
-            this.lblBienvenida.Size = new System.Drawing.Size(375, 21);
-            this.lblBienvenida.TabIndex = 0;
-            this.lblBienvenida.Text = "Name";
-            this.lblBienvenida.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // tabContenedor
             // 
@@ -852,6 +841,17 @@ namespace Pre_segundo_parcial.Vista
             this.button1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // lblBienvenida
+            // 
+            this.lblBienvenida.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblBienvenida.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblBienvenida.Location = new System.Drawing.Point(383, 4);
+            this.lblBienvenida.Name = "lblBienvenida";
+            this.lblBienvenida.Size = new System.Drawing.Size(375, 21);
+            this.lblBienvenida.TabIndex = 0;
+            this.lblBienvenida.Text = "Name";
+            this.lblBienvenida.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // frmPrincipal
             // 

@@ -168,9 +168,9 @@ namespace Pre_segundo_parcial.Vista
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label3.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label3.Location = new System.Drawing.Point(230, 145);
+            this.label3.Location = new System.Drawing.Point(230, 135);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(174, 17);
+            this.label3.Size = new System.Drawing.Size(174, 38);
             this.label3.TabIndex = 4;
             this.label3.Text = "Antigua contraseña:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
