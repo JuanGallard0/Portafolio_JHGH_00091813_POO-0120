@@ -60,8 +60,10 @@ namespace Pre_segundo_parcial.Vista
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.label16 = new System.Windows.Forms.Label();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.btnMostrarStock = new System.Windows.Forms.Button();
+            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.btnModificarArticulo = new System.Windows.Forms.Button();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label15 = new System.Windows.Forms.Label();
@@ -441,8 +443,10 @@ namespace Pre_segundo_parcial.Vista
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.numericUpDown2);
             this.groupBox5.Controls.Add(this.label16);
+            this.groupBox5.Controls.Add(this.textBox11);
+            this.groupBox5.Controls.Add(this.btnMostrarStock);
+            this.groupBox5.Controls.Add(this.numericUpDown2);
             this.groupBox5.Controls.Add(this.btnModificarArticulo);
             this.groupBox5.Controls.Add(this.comboBox3);
             this.groupBox5.Controls.Add(this.label15);
@@ -453,27 +457,45 @@ namespace Pre_segundo_parcial.Vista
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Modificar Stock";
             // 
+            // label16
+            // 
+            this.label16.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label16.Location = new System.Drawing.Point(321, 52);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(95, 17);
+            this.label16.TabIndex = 21;
+            this.label16.Text = "Nuevo stock:";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textBox11.Location = new System.Drawing.Point(138, 72);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(129, 20);
+            this.textBox11.TabIndex = 20;
+            // 
+            // btnMostrarStock
+            // 
+            this.btnMostrarStock.Location = new System.Drawing.Point(17, 69);
+            this.btnMostrarStock.Name = "btnMostrarStock";
+            this.btnMostrarStock.Size = new System.Drawing.Size(115, 24);
+            this.btnMostrarStock.TabIndex = 20;
+            this.btnMostrarStock.Text = "Mostrar stock actual";
+            this.btnMostrarStock.UseVisualStyleBackColor = true;
+            this.btnMostrarStock.Click += new System.EventHandler(this.btnMostrarStock_Click);
+            // 
             // numericUpDown2
             // 
             this.numericUpDown2.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.numericUpDown2.Location = new System.Drawing.Point(138, 71);
+            this.numericUpDown2.Location = new System.Drawing.Point(422, 52);
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(129, 20);
             this.numericUpDown2.TabIndex = 20;
             // 
-            // label16
-            // 
-            this.label16.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label16.Location = new System.Drawing.Point(37, 71);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(95, 17);
-            this.label16.TabIndex = 20;
-            this.label16.Text = "Stock:";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // btnModificarArticulo
             // 
-            this.btnModificarArticulo.Location = new System.Drawing.Point(382, 41);
+            this.btnModificarArticulo.Location = new System.Drawing.Point(560, 43);
             this.btnModificarArticulo.Name = "btnModificarArticulo";
             this.btnModificarArticulo.Size = new System.Drawing.Size(107, 34);
             this.btnModificarArticulo.TabIndex = 20;
@@ -492,7 +514,7 @@ namespace Pre_segundo_parcial.Vista
             // label15
             // 
             this.label15.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label15.Location = new System.Drawing.Point(45, 25);
+            this.label15.Location = new System.Drawing.Point(37, 25);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(95, 17);
             this.label15.TabIndex = 20;
@@ -876,6 +898,7 @@ namespace Pre_segundo_parcial.Vista
             this.tableLayoutPanel2.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize) (this.numericUpDown2)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
@@ -899,6 +922,7 @@ namespace Pre_segundo_parcial.Vista
         private System.Windows.Forms.Button btnLimpiarArticulo;
         private System.Windows.Forms.Button btnLimpiarUsuario;
         private System.Windows.Forms.Button btnModificarArticulo;
+        private System.Windows.Forms.Button btnMostrarStock;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.CheckBox checkBox1;
@@ -951,6 +975,7 @@ namespace Pre_segundo_parcial.Vista
         private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;

@@ -28,6 +28,9 @@ namespace Pre_segundo_parcial.Vista
             graficoCommon = new CartesianChart();
             this.Controls.Add(graficoCommon);
             graficoCommon.Parent = tabContenedor.TabPages[5];
+
+            numericUpDown3.Minimum = 1;
+         
             configurarGraficoCommon();
             
             actualizarControlesCommon();
@@ -136,7 +139,7 @@ namespace Pre_segundo_parcial.Vista
             comboBox3.DataSource = null;
             comboBox3.DisplayMember = "nombre";
             comboBox3.DataSource = listaI;
-
+            
             actualizarControlesCommon();
 
             poblarGraficoAdmin();
@@ -331,6 +334,12 @@ namespace Pre_segundo_parcial.Vista
         {
             dataGridView1.DataSource = null;
             dataGridView1.DataSource = PedidoDAO.getListaUsuario(usuario.usuario);
+        }
+
+        private void btnMostrarStock_Click(object sender, EventArgs e)
+        {
+            List<Inventario> listaI = InventarioDAO.getLista();
+            textBox11.Text = listaI[comboBox3.SelectedIndex].stock.ToString();
         }
     }
 }

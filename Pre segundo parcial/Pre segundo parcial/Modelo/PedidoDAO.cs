@@ -85,7 +85,7 @@ namespace Pre_segundo_parcial.Modelo
         public static List<Frecuencia> getEstadisticasUsuario(string usuario)
         {
             string sql = String.Format(
-                "select nombre, count(*) as c from pedido where usuario='{0}' group by nombre;",
+                "select nombre, sum(cantidad) from pedido where usuario='{0}' group by nombre;",
                 usuario);
             
             DataTable dt = Conexion.realizarConsulta(sql);
