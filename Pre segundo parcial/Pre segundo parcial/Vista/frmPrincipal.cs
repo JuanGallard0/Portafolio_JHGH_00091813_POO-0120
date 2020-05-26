@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using ClaseGUI05.Modelo;
 using Pre_segundo_parcial.Modelo;
 using LiveCharts;
 using LiveCharts.Wpf;

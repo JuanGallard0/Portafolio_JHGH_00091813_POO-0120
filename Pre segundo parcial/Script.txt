@@ -1,4 +1,4 @@
---Usuario insertado para facilitar el uso de la base de datos: 
+﻿--Usuario insertado para facilitar el uso de la base de datos: 
 --usuario: Administrador		contraseña: '0000'
 
 CREATE DATABASE "PreParcial2"
@@ -47,7 +47,7 @@ ALTER TABLE public.inventario
 
 CREATE TABLE public.pedido
 (
-    pedido_id integer NOT NULL DEFAULT nextval('pedido_pedido_id_seq'::regclass),
+    pedido_id serial,
     fecha_envio date NOT NULL,
     usuario character varying(50) COLLATE pg_catalog."default" NOT NULL,
     cantidad integer NOT NULL,

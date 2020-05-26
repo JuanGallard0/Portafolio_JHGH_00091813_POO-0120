@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Data;
 using Pre_segundo_parcial.Controlador;
-using Pre_segundo_parcial.Modelo;
 
-namespace ClaseGUI05.Modelo
+namespace Pre_segundo_parcial.Modelo
 {
     public static class UsuarioDAO
     {

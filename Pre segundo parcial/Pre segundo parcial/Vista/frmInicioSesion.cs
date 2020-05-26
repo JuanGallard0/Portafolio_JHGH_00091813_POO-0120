@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
-using ClaseGUI05.Modelo;
-using Pre_segundo_parcial.Controlador;
 using Pre_segundo_parcial.Modelo;
+using Pre_segundo_parcial.Controlador;
 
 namespace Pre_segundo_parcial.Vista
 {
