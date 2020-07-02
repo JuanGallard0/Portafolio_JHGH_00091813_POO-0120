@@ -1,0 +1,22 @@
+Aplicación del patrón Bridge al laboratorio 02: Herramientas de Minecraft.
+
+-El patrón Bridge permite desacoplar la clase implementación de la clase abstracción.
+-Se usa para aplicar dos versiones de software diferentes.
+-La interfaz permite el mecanismo de entrada a diferentes implementaciones.
+-Esconde las implementaciones del cliente.
+
+Escogí el patrón Bridge para realizar el laboratorio 02 porque en este se utilizan
+dos métodos bastante similares pero con diferentes comportamientos, por lo que se podrían describir como versión 1 y versión 2. 
+Se trata del método ConsultarHerramientas que muestra todas
+las herramientas de la lista en su versión 1, y muestra las herramientas de un solo tipo ingresado por
+el usuario en su versión 2.
+Además, realicé los dos métodos personalizados siguiendo el mismo modelo: un método BuscarMayorDaño
+que muestra la herramienta con el mayor daño en su versión 1, y muestra la herramienta con mayor daño del tipo
+ingresado por el usuario en su versión 2.
+
+La aplicación del Bridge se realiza gracias a una clase CAbstraccion que conecta al cliente con la abstracción, 
+esta permite también elegir la versión de métodos que se desea utilizar.
+Luego, la interfaz de implementación IBridge declara los métodos comunes a las dos clases que contienen ambas versiones.
+Finalmente se tienen las dos clases Implenetacion1 e Implementacion2 que contienen la implementación 
+concreta de los métodos que serán llamadas en el menú principal.
+
